@@ -1,4 +1,4 @@
-package com.example.wangjiawei.testplugin;
+package com.example.wangjiawei.pluginlibrary;
 
 import android.content.Intent;
 import android.os.Handler;

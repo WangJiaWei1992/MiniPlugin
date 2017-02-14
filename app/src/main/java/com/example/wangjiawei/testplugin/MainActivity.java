@@ -1,6 +1,7 @@
 package com.example.wangjiawei.testplugin;
 
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +15,10 @@ public class MainActivity extends Activity {
         findViewById(R.id.start_plugin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, TargetActivity.class));
+                ComponentName componentName = new ComponentName(MainActivity.this, "com.example.wangjiawei.plugin.TargetActivity");
+                Intent intent = new Intent();
+                intent.setComponent(componentName);
+                startActivity(intent);
             }
         });
     }
