@@ -1,2 +1,2 @@
-# TestPlugin
+# MiniPlugin
 ## 建设中
