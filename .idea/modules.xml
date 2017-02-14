@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TestPlugin.iml" filepath="$PROJECT_DIR$/TestPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniPlugin.iml" filepath="$PROJECT_DIR$/MiniPlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugin/plugin.iml" filepath="$PROJECT_DIR$/plugin/plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/pluginlibrary/pluginlibrary.iml" filepath="$PROJECT_DIR$/pluginlibrary/pluginlibrary.iml" />
